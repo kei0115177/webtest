@@ -78,7 +78,7 @@ public class DemoController {
 	@CrossOrigin
 	public Test check() {
 		Test test = new Test();
-		test.setName("ジュンちゃん");
+		test.setName("キム");
 		test.setScore(100);
 		return test;
 	}
